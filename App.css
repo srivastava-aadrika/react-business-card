@@ -1,0 +1,35 @@
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: blueviolet;
+  text-shadow: 0.5em;
+  align-items: center;
+  margin:30%;
+}
+.card-content {
+  padding: 16px;
+}
+#img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+}
+.phone{
+  display: flex;
+}
+#btn{
+  display: inline-block;
+  background-color: #0077b5;
+  color:white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align : center;
+  
+}
